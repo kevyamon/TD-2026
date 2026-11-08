@@ -19,7 +19,7 @@ export default function DownloadSection({ documentSize = '36 Mo' }) {
 
   return (
     <section id="telechargement" className="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <div className="bg-white rounded-3xl border border-slate-200 p-8 sm:p-12 shadow-sm relative overflow-hidden">
+      <div className="bg-white rounded-3xl border border-slate-200 p-8 sm:p-12 shadow-sm relative overflow-hidden card-animated animate-fade-in-up">
         
         {/* Bandeau d'accent en haut */}
         <div 
